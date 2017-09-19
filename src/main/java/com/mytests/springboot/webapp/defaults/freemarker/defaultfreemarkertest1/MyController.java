@@ -30,4 +30,10 @@ public class MyController {
         model.addAttribute("viewresolversList",data );
         return "home";
     }
+
+    @RequestMapping("/test2")
+    public String test2Method(ModelMap model) {
+        model.addAttribute("test2_attr1", "test2_attr1");
+        return "test2";
+    }
 }

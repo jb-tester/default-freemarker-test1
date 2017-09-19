@@ -19,5 +19,6 @@
     </#list>
     </table>
 </div>
+<a href="/test2">continue...</a>
 </body>
 </html>
