@@ -36,4 +36,10 @@ public class MyController {
         model.addAttribute("test2_attr1", "test2_attr1");
         return "test2";
     }
+
+    @RequestMapping("/test3")
+    public String test3Method(ModelMap model) {
+        model.addAttribute("test3_attr1", "test3_attr1");
+        return "test3";
+    }
 }
