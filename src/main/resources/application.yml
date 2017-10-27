@@ -1,0 +1,15 @@
+server:
+  port: 8087
+#spring:
+#  FREEMARKER:
+#    prefix: template_
+#    suffix: .ftl
+#    template-LOADER-path: /ftl_views/, /templates/, classpath:/ftl_pages/
+#spring:
+#  freemarker:
+#    template-loader-path:
+#                        - /ftl_views/
+#                        - /templates/
+#                        - classpath:/ftl_pages/
+#    prefix: template_
+#    suffix: .ftl
