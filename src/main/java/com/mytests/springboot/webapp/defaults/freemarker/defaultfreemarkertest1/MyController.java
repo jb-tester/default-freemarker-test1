@@ -18,6 +18,7 @@ public class MyController {
 
     @RequestMapping("/")
     public String Method(ModelMap model) {
+
         List<Data> data = new ArrayList<>();
         data.add(new Data("jsp_default","+"));
         data.add(new Data("jsp_with_configured_prefix_and_suffix","-"));
@@ -39,7 +40,14 @@ public class MyController {
 
     @RequestMapping("/test3")
     public String test3Method(ModelMap model) {
-        model.addAttribute("test3_attr1", "test3_attr1");
+        List <String> data = new ArrayList <>();
+        data.add("d1");
+        data.add("");
+        data.add("d3");
+        data.add("d4");
+        model.addAttribute("data", data);
+        model.addAttribute("test3_attr1", "test3_attr1_");
         return "test3";
     }
+
 }
