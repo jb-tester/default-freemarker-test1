@@ -10,13 +10,15 @@
     <h1>tested configurations:</h1>
     <table border="1">
         <tr>
-            <th >view resolver</th>  <th>status</th>
+            <th>view resolver</th>
+            <th>status</th>
         </tr>
-    <#list viewresolversList as vr>
-    <tr>
-        <td>${vr.name}</td> <td align="center">${vr.status}</td>
-    </tr>
-    </#list>
+        <#list viewresolversList as vr>
+            <tr>
+            <td>${vr.name}</td>
+            <td align="center">${vr.status}</td>
+            </tr>
+        </#list>
     </table>
 </div>
 <a href="/test2">continue...</a>

@@ -8,9 +8,9 @@ server:
 spring:
   freemarker:
     template-loader-path:
-                        - /ftl_views/
-                        - /templates/
-                        - classpath:/ftl_pages/
+      - /ftl_views/
+      - /templates/
+      - classpath:/ftl_pages/
     prefix: template_
     suffix: .ftl
 
